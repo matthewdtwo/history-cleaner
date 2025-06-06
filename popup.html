@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>History Cleaner</title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+  <input type="text" id="searchInput" placeholder="Enter domain or URL part">
+  <button id="searchButton">Search History</button>
+  <div id="deleteControls" style="display:none; margin-top: 10px;">
+    <input type="checkbox" id="deleteAllDomainsCheckbox" style="margin-right: 5px;">
+    <label for="deleteAllDomainsCheckbox" style="margin-right: 10px;">Delete all items from displayed domains</label>
+    <button id="deleteButton">Delete</button>
+  </div>
+  <div id="results"></div>
+  <script src="popup.js"></script>
+</body>
+</html>

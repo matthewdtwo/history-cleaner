@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "History Cleaner",
+  "version": "1.0",
+  "description": "Search and delete browser history entries.",
+  "permissions": [
+    "history"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
